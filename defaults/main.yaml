@@ -1,0 +1,6 @@
+# davfs2 remote storage to be mounted
+davfs2_mounts:
+  - src: https://mywebdav/resource
+    dest: /backup
+    user: user
+    password: password
